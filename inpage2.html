@@ -5,8 +5,8 @@
 	  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-
 	<!--here we created the header and inside of it we will create the img tag to put in it our logo-->
+	<!--
 	<header>
 		<div>
 			<!--logo-->
@@ -15,39 +15,27 @@
 		</div>
 	</header>
 	<!--text input for the seach bar-->
-<nav>
 	<!--
+<nav>
 	<input type="text" id="searchBar" onkeyup="myFunction()" placeholder="Search for..." title="Type in something">	
 
 </nav>
+-->
 
-<!--to manupilate the the h1 name of the website--> 
-<div id="signup">
-	<h1> BisS </h1>
-	<h2 id="info">Come to see what you like.<br><br>
-        Stay for what you find out.</h2>
-	<!--we create an id for the buttons to style them later -->
-
-<!--this div is for the 3 inputs that we will hide it after in the inscription button-->
-   
-<div class="textbox" hidden>
+<div  class="login-box">
+<h1>Login</h1>
+<div class="textbox">
 	<i class="fas fa-user"></i>
 <input type="text" placeholder="Username"  value="">
 </div>
-<div class="textbox" hidden>
+<div class="textbox">
 	<i class="fas fa-lock"></i>
 <input type="Password" placeholder="Password"  value="">
 </div>
-    <button id="btn1" onclick="myFunction()" > Subscribe </button>
-	
-<button id="btn2"> Login </button>	
-</div>
- <!--this is our footer to give information of the page-->
-<div class="footer">
-  <p style="font-size: 20px;">What is BisS ?</p>
+<input class="btn"  type="button" value="Sign in">
 </div>
 
-   
+
 <script type="text/javascript" src="jQuery.js"></script>
 <script type="text/javascript" src="main.js"></script>
 </body>

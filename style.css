@@ -1,3 +1,6 @@
+/*Alert i will use this just for the icons*/
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+
 body {
 	 background-image: url('img/background.JPG');
 }
@@ -38,6 +41,7 @@ h1 {
 }
 
 /*this is the searchBar for the Search with a loop*/
+/*
 #searchBar {
 
   background-position: 10px 12px; 
@@ -48,6 +52,7 @@ h1 {
   margin-bottom: 9px;
   background-color: #ffffff;
   /*this for the loop icon inside the search bar*/
+  /*
   background-image: url('img/loop.png'); 
   background-position: 10px 10px; 
   padding: 12px 20px 12px 40px;
@@ -55,9 +60,9 @@ h1 {
  
 
   }
-
+*/
 #btn1 {
-  background-color:  #ff3399; /* hotpink background */
+  background-color: #ccad00; /* hotpink background */
   color: white; /* White text */
   padding: 10px 24px; /* Some padding */
   cursor: pointer; /* Pointer/hand icon */
@@ -67,7 +72,7 @@ h1 {
   padding: 10px;
   border-radius: 25px;/*to make it rounder*/
   margin-left: 250px;/*to put our button in center*/
-  
+  font-size: 25px
 }
 
 #btn2{
@@ -83,16 +88,17 @@ h1 {
   border-radius: 25px; /*to make it rounder*/
   margin-top: 10px;
   margin-left: 250px;/*to put our button in center*/
+  font-size: 30px;
 }
 
 /* Add a background color on hover */
 #btn1:hover {
-  background-color: #cc0066;
+  background-color: #998200;
  
 }
 
 #btn2:hover {
-  background-color: #e6e6e6 ;
+  background-color: #d9d9d9 ;
 }
 
 .inputs1 {
@@ -107,12 +113,46 @@ h1 {
 .inputs3 {
   margin-top: 10px;
   margin-left: 250px;/*to put our input in center*/
-  
+  }
+
+
+
+.textbox {
+  width: 50%;
+  overflow: hidden;
+  font-size: 20px;
+  padding: 8px 0;
+  margin: 8px 0;
+  border-bottom: 1px solid #4caf50;
 
 }
 
-#button_Inscription {
-  margin-top: 10px;
-  margin-left: 250px;/*to put our button input in center*/
+.textbox i{
+  width: 26px;
+  float: left;
+  text-align: center;
 }
- 
+.textbox input{
+  border: none;
+  outline: none;
+  background: none;
+  color: white;
+  font-size: 18px;
+  width: 80%;
+  float: left;
+  margin: 0 10px;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #cc660029;
+   color: white;
+   text-align: center;  
+   font-size: 15px
+}
+
+
+
