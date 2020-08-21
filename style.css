@@ -1,0 +1,118 @@
+body {
+	 background-image: url('img/background.JPG');
+}
+
+h1 {
+	text-align: center;
+
+}
+
+
+/*this info id for the welcoming guest*/
+#info {
+	text-align: center;
+	color: white;
+	font-family: Playfair Display, sans-serif
+	/*i need to change the size i think it didnt work*/
+	font-size: 17px;
+
+}
+.logo_header {
+  width: 40px;
+  height: 40px;
+  float: left;
+  margin-left: 0px;
+}
+/*the signup is the h1 its the same */
+
+
+
+#signup {
+	color: 	#DAA520;
+	padding: 200px
+}
+
+#signin {
+	color: 	#DAA520;
+	padding: 200px
+}
+
+/*this is the searchBar for the Search with a loop*/
+#searchBar {
+
+  background-position: 10px 12px; 
+  background-repeat: no-repeat;
+  width: 20%;
+  font-size: 17px;
+  padding: 12px 20px 12px 40px;
+  margin-bottom: 9px;
+  background-color: #ffffff;
+  /*this for the loop icon inside the search bar*/
+  background-image: url('img/loop.png'); 
+  background-position: 10px 10px; 
+  padding: 12px 20px 12px 40px;
+  opacity: 0.5;
+ 
+
+  }
+
+#btn1 {
+  background-color:  #ff3399; /* hotpink background */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  width: 50%; /* Set a width */
+  display: block; /* Make the buttons appear below each other */
+  border: 2px ;
+  padding: 10px;
+  border-radius: 25px;/*to make it rounder*/
+  margin-left: 250px;/*to put our button in center*/
+  
+}
+
+#btn2{
+
+  background-color:  white; /* white background */
+  color: black; /* black text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  width: 50%; /* Set a width */
+  display: block; /* Make the buttons appear below each other */
+  border: 2px ; 
+  padding: 10px;
+  border-radius: 25px; /*to make it rounder*/
+  margin-top: 10px;
+  margin-left: 250px;/*to put our button in center*/
+}
+
+/* Add a background color on hover */
+#btn1:hover {
+  background-color: #cc0066;
+ 
+}
+
+#btn2:hover {
+  background-color: #e6e6e6 ;
+}
+
+.inputs1 {
+  margin-top: 10px;
+  margin-left: 250px;/*to put our input in center*/
+}
+
+.inputs2 {
+  margin-top: 10px;
+  margin-left: 250px;/*to put our input in center*/
+}
+.inputs3 {
+  margin-top: 10px;
+  margin-left: 250px;/*to put our input in center*/
+  
+
+}
+
+#button_Inscription {
+  margin-top: 10px;
+  margin-left: 250px;/*to put our button input in center*/
+}
+ 

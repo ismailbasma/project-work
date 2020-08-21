@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>prject Work</title>
+	  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<!--here we created the header and inside of it we will create the img tag to put in it our logo-->
+	<header>
+		<div>
+			<!--logo-->
+			<img src="" class="logo_header">
+		</div>
+	</header>
+	<!--text input for the seach bar-->
+<nav>
+	<input type="text" id="searchBar" onkeyup="myFunction()" placeholder="Search for..." title="Type in something">	
+
+</nav>
+<!--to manupilate the the h1 name of the website--> 
+<div id="signup">
+	<h1> BiSs </h1>
+	<h2 id="info">Come to see what you like.<br><br>
+        Stay for what you find out.</h2>
+	<!--we create an id for the buttons to style them later -->
+
+ <div class="inputs1">
+      <input type="email" class="email" placeholder="Email" name="text1">
+    </div>
+    <div class="inputs2">
+      <input type="Password" class="password" placeholder="Password" name="text2">
+    </div>
+    <div class="inputs3">
+      <input type="text" class="username" placeholder="Username" name="text3">
+    </div>
+
+
+
+	<button id="btn1" > Inscription </button>
+	<p>Already have account, just <span style="color: red;" onclick="goLogin()">Login</span> Here</p>
+
+</div> 
+
+<div id="signin" hidden>
+	<h1> BiSs </h1>
+	<h2 id="info">Come to see what you like.<br><br>
+        Stay for what you find out.</h2>
+	<!--we create an id for the buttons to style them later -->
+
+ <div class="inputs1">
+      <input type="email" class="email" placeholder="Email" name="text1">
+    </div>
+    <div class="inputs2">
+      <input type="Password" class="password" placeholder="Password" name="text2">
+    </div>
+    <div class="inputs3">
+      <input type="text" class="username" placeholder="Username" name="text3">
+    </div>
+
+
+<button id="btn2"> Connexion </button>
+	<p>Don't have account, you can <span style="color: red" onclick="goRegister()">register</span> Here</p>
+	
+
+</div> 
+	<!--this is our footer to give information of the page-->
+
+<!--this div is for the 3 inputs that we will hide it after in the inscription button-->
+   
+   
+    
+
+
+ 
+
+<script type="text/javascript" src="jQuery.js"></script>
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
